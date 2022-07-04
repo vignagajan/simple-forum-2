@@ -1,0 +1,38 @@
+.login-form {
+  width: 340px;
+  margin: 100px auto;
+}
+.login-form form {
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.login-form h2 {
+  margin: 0 0 15px;
+}
+.form-group {
+  padding: 5px 0 5px 0;
+}
+.form-group label {
+  display: inline-block;
+}
+.form-group input {
+  width: 100%;
+  clear: both;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.form-control,
+.btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.forgot {
+  padding-bottom: 25px;
+  text-align: right;
+}
+.sign-up {
+  text-align: center;
+  padding: 20px 0 0;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "simple-forum",
+  "version": "1.0.0",
+  "description": "A simple forum using mern stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\"  \"npm run client\""
+  },
+  "author": "Vignagajan Vigneswaran",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "concurrently": "^7.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15",
+    "react-icons": "^4.3.1"
+  }
+}
